@@ -1,0 +1,165 @@
+.plan-container{
+    background: #fff;
+    padding: 10vh 0;
+}
+
+.plan-top-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7vw;
+}
+
+.plan-l-text h3{
+    color: rgb(76, 76, 235);
+}
+
+.plan-l-text h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.plan-l-text p{
+    font-size: 18px;
+    color: #949494;
+}
+
+.plan-r-text button{
+    font-size: 17px;
+    color: rgb(76, 76, 235);
+    font-weight: 600;
+    background: transparent;
+    border-radius: 5px;
+    padding: 2vh 4vh;
+    border: 2px solid rgb(76, 76, 235);
+    outline: none;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.plan-r-text button:hover{
+    background: rgb(76, 76, 235);
+    color: #fff;
+}
+
+/* ============ Plan Card ============ */
+
+.plan-cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 5vw 0 3vw 0;
+    gap: 4vw;
+}
+
+.plan-card{
+    padding: 3vw 2.5vw;
+    border: 2px solid rgb(76, 76, 235);
+    border-radius: 5px;
+}
+
+.plan-card:hover{
+    color: #fff;
+    background: rgb(76, 76, 235);
+    transition: all 400ms ease-in-out;
+}
+
+.card-header h3{
+    text-align: center!important;
+    font-size: 27px;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price sub{
+    font-size: 20px;
+    top: 1px;
+}
+
+.price h2{
+    font-size: 70px;
+}
+
+.price p{
+    font-size: 22px;
+    padding: 0 2vh;
+    line-height: 1;
+}
+
+.card-info ul{
+    padding-left: 1.7vw;
+}
+
+.card-info ul li{
+    list-style: no;
+    padding-top: 1vh;
+    font-size: 18px;
+}
+
+.card-button{
+    padding-top: 2vw;
+}
+
+.card-button button{
+    width: 100%;
+    font-weight: 600;
+}
+
+.card-button button:hover{
+    border: 2px solid hsl(0, 0%, 0%);
+    color: #000;
+}
+
+@media(max-width: 800px){
+
+    .plan-top-text{
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+    }
+
+    .plan-cards{
+        gap: 5vw;
+    }
+
+    .plan-card{
+        padding: 4vw 5vw;
+    }
+}
+
+@media(max-width: 500px){
+
+    .plan-l-text h1{
+        font-size: 28px;
+    } 
+
+    .plan-l-text p{
+        font-size: 16px;
+    }
+
+    .plan-r-text button{
+        font-size: 15px;
+    }
+
+    .plan-cards{
+        padding-top: 7vw;
+        gap: 7vw;
+    }
+
+    .plan-card{
+        padding: 5vw 10vw;
+    }
+
+    .card-info{
+        padding: 0 2vw 5vw 5vw;
+    }
+
+    .price p{
+        font-size: 20px;
+    }
+}

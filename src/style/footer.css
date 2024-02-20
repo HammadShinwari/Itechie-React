@@ -1,0 +1,105 @@
+.footer-container{
+    background-image: url(../images/Service/footer-img.webp);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8vw;
+    padding: 10vh 15vh ;
+}
+
+.f-head h3{
+    font-size: 22px;
+    font-weight: 700;
+    color: #ccc;
+}
+
+.f-text{
+    padding-top: 1vw;
+}
+
+.f-1-text h4{
+    font-size: 19px;
+    font-weight: 500;
+    color: #e5e4e4;
+}
+
+.f-1-text p{
+    font-weight: 500;
+}
+
+.icons{
+    padding-top: 2vw;
+}
+
+.icons > *{
+    font-size: 10px;
+    padding-right: 10px;
+}
+
+.f-2-text ul li{
+    padding-top: 1vh;
+    cursor: pointer;
+    list-style: none;
+    font-size: 17px;
+}
+
+.f-3-text ul li{
+    padding-top: 1vh;
+    cursor: pointer;
+    list-style: none;
+    font-size: 17px;
+}
+
+.f-2-text ul li:hover,
+.f-3-text ul li:hover{
+    color: rgb(101, 101, 235);
+    transition: all 400ms ease;
+}
+
+.f-4-text{
+    padding-top: 4vh;
+}
+
+.f-4-sub p{
+    padding-top: 2vw;
+    font-size: 18px;
+}
+
+.f-4-text input{
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    font-size: 18px;
+    padding: 2vh;
+    color: #fff;
+}
+
+.f-4-text input::placeholder{
+    color: #fff;
+}
+
+.checkbox{
+    padding-top: 4vh;
+    display: flex;
+}
+
+@media (max-width: 1050px) {
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 8vh;
+    }
+}
