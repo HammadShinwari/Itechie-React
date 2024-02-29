@@ -1,6 +1,6 @@
 import React from 'react'
 
-// fontawesomeicon
+// materialicon
 import { FacebookRounded, Twitter, Instagram, YouTube } from '@mui/icons-material';
 
 // style file

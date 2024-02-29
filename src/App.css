@@ -29,3 +29,7 @@ button:hover{
     background: transparent;
     border: 1px solid #fff;
 }
+
+.logo-img{
+    width: 100px;
+}
